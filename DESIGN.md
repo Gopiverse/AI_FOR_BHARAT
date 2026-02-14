@@ -24,8 +24,7 @@ The system combines **computer vision**, **multimodal LLMs**, and **agentic work
 
 ## 🏛️ 3. High-Level Architecture
 
-![High level architecture](high_level.png)
-
+<img src="high_level.png" alt="High level architecture" width="200" height="300">
 
 ---
 
