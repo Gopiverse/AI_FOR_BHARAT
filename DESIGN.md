@@ -1,17 +1,17 @@
-# 🏗️ Design Document — The Zero-Waste Chef
+#  Design Document — The Zero-Waste Chef
 
 > *A Multimodal AI System for Rebuilding Meals from Existing Ingredients*
 
 ---
 
-## 📌 1. System Overview
+##  1. System Overview
 
 **The Zero-Waste Chef** is an AI-powered mobile application that transforms images of fridge or pantry contents into intelligent, waste-minimizing recipes.  
 The system combines **computer vision**, **multimodal LLMs**, and **agentic workflows** to eliminate *fridge paralysis* and promote sustainable cooking.
 
 ---
 
-## 🧠 2. Design Goals
+##  2. Design Goals
 
 - Convert ingredient images into accurate inventories
 - Generate recipes using **only available ingredients**
@@ -22,7 +22,7 @@ The system combines **computer vision**, **multimodal LLMs**, and **agentic work
 
 ---
 
-## 🏛️ 3. High-Level Architecture
+##  3. High-Level Architecture
 
 <p align="center">
   <img src="high_level.png" alt="High level architecture" width="200" height="300">
@@ -30,43 +30,43 @@ The system combines **computer vision**, **multimodal LLMs**, and **agentic work
 
 ---
 
-## 🧩 4. Core Components
+##  4. Core Components
 
-### 📱 Mobile Application
+###  Mobile Application
 - Image capture & upload
 - Ingredient confirmation UI
 - Step-by-step cooking mode
 - Impact visualization dashboard
 
-### ⚙️ Backend API
+###  Backend API
 - Handles image uploads
 - Manages sessions & orchestration
 - Connects AI services
 - Returns structured responses
 
-### 👁️ Computer Vision Engine
+###  Computer Vision Engine
 - Ingredient detection
 - Food classification
 - Quantity approximation
 
-### 🧠 Agentic Reasoning Engine
+###  Agentic Reasoning Engine
 - Validates ingredient list
 - Applies perishable-first logic
 - Enforces strict constraints
 - Eliminates hallucinated ingredients
 
-### 🍳 Recipe Generation Engine
+###  Recipe Generation Engine
 - Multimodal LLM-based
 - Cuisine-aware recipe creation
 - Structured, readable output
 
-### 🌍 Impact Analytics Engine
+###  Impact Analytics Engine
 - CO₂ emission savings calculation
 - Estimated grocery cost savings
 
 ---
 
-## 🔄 5. Data Flow
+##  5. Data Flow
 
 1. User uploads fridge/pantry image  
 2. Backend receives image  
@@ -79,7 +79,7 @@ The system combines **computer vision**, **multimodal LLMs**, and **agentic work
 
 ---
 
-## 🧰 6. Technology Stack
+##  6. Technology Stack
 
 | Layer | Technologies |
 |-----|-------------|
@@ -93,7 +93,7 @@ The system combines **computer vision**, **multimodal LLMs**, and **agentic work
 
 ---
 
-## 🔐 7. Security & Privacy
+##  7. Security & Privacy
 
 - HTTPS-based communication
 - Secure handling of image data
@@ -102,7 +102,7 @@ The system combines **computer vision**, **multimodal LLMs**, and **agentic work
 
 ---
 
-## ⚡ 8. Performance & Scalability
+##  8. Performance & Scalability
 
 - Asynchronous request handling
 - Horizontally scalable backend
@@ -111,7 +111,7 @@ The system combines **computer vision**, **multimodal LLMs**, and **agentic work
 
 ---
 
-## ⚠️ 9. Known Limitations
+##  9. Known Limitations
 
 - Ingredient detection depends on image quality
 - Carbon calculations are estimations
@@ -119,7 +119,7 @@ The system combines **computer vision**, **multimodal LLMs**, and **agentic work
 
 ---
 
-## 🚀 10. Future Enhancements
+##  10. Future Enhancements
 
 - Smart fridge integration
 - Personalized nutrition goals
@@ -128,11 +128,3 @@ The system combines **computer vision**, **multimodal LLMs**, and **agentic work
 - Multilingual support
 
 ---
-
-## ✅ Summary
-
-This design demonstrates how **multimodal agentic AI** can convert everyday kitchen activity into a powerful sustainability solution—bridging the gap between intention and action.
-
----
-
-
