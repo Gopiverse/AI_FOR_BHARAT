@@ -89,7 +89,6 @@ The system combines **computer vision**, **multimodal LLMs**, and **agentic work
 | Vision | Custom CV models |
 | Agent Framework | LangChain / CrewAI |
 | Database | Supabase / PostgreSQL |
-| Vector DB | Pinecone / ChromaDB |
 | Impact APIs | Carbon & Pricing APIs |
 
 ---
